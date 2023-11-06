@@ -1,0 +1,28 @@
+ping www.google.com
+ipconfig
+tracert
+Netstat
+ping -t www.google.com
+ping -a www.google.com
+ping -n 6 www.google.com
+ping -S 192.168.1.6 www.google.com
+ping -f www.google.com
+ping -4 www.google.com
+ping -6 www.google.com
+arp -a
+hostname
+getmac
+nbtstat -c
+nbtstat -n
+nbtstat -s
+nslookup imsnsit.org
+nslookup -type=ns imsnsit.org
+nslookup -type=soa imsnsit.org
+nslookup -query=mx imsnsit.org
+nslookup -query=any sisa.com
+netstat
+netstat | findstr ESTABLISHED
+netstat -r
+netsh interface ipv4 show config
+netsh interface ipv4 set address name="Wi-Fi" static 192.168.3.8 255.255.255.0 192.168.3.1 (cmd)
+
